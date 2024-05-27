@@ -1,0 +1,38 @@
+*{
+
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background: #000;
+    color: aliceblue;
+}
+.main{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ 
+ margin-left: 20px;
+ margin-right: 20px;
+    border: 2px solid red ;
+}
+.shh{
+    display: flex;
+
+}
+.mcqs{
+justify-content: center;
+justify-self: center;
+justify-items: center;
+   
+}
+.question{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    gap: 12;
+}
