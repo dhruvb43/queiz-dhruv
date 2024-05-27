@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;;
 }
+.dhruv{
 
+   
+    justify-items: center;
+}
 body{
     background: #000;
     color: aliceblue;
