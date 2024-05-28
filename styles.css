@@ -1,42 +1,68 @@
-*{
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body, input, button, select, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+.dhruv {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
 
-    margin: 0;
-    padding: 0;;
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.dhruv{
 
-   
-    justify-items: center;
+label {
+  color: #555;
 }
-body{
-    background: #000;
-    color: aliceblue;
-}
-.main{
- margin-top: 20px;
- margin-bottom: 20px;
- 
- margin-left: 20px;
- margin-right: 20px;
-    border: 2px solid red ;
-}
-.shh{
-    display: flex;
 
+input[type="text"],
+input[type="number"],
+input[type="submit"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
-.mcqs{
-justify-content: center;
-justify-self: center;
-justify-items: center;
-   
+
+input[type="submit"] {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-.question{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+
+input[type="submit"]:hover {
+  background-color: #4cae4c;
 }
-li{
-    display: flex;
-    justify-content: space-around;
-    gap: 12;
+
+input[type="checkbox"] {
+}
+@media (max-width: 768px) {
+  .dhruv {
+  }
+  input[type="text"],
+  input[type="number"],
+  textarea {
+  }
+}
+input[type="checkbox"] + label {
+  color: #666;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #d9534f;
 }
